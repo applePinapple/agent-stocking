@@ -1,0 +1,5 @@
+# Preserve source bytes: local audit records bind Python/formula SHA-256 hashes.
+* -text
+
+# Frozen native formula versions retain their original CR/LF and whitespace.
+reports/strategies3-21-watchlist-20210101-20261023/native-evaluation/** -whitespace

@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agent-stocking"
+version = "0.1.0"
+description = "Reproducible local backtests for explicit Tongdaxin stock strategies"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.scripts]
+agent-stocking = "agent_stocking.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+

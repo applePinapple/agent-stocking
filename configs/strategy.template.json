@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "name": "待填写：用户策略名称与版本",
+  "data": {
+    "path": "../data/raw/PLEASE_REPLACE.csv",
+    "format": "csv",
+    "symbol": "待填写",
+    "volume_unit": "shares",
+    "source": "user_supplied",
+    "price_adjustment": "unconfirmed",
+    "corporate_actions": "unconfirmed"
+  },
+  "strategy": {"kind": "pending"},
+  "execution": {
+    "initial_cash": null,
+    "lot_size": null,
+    "commission_rate": null,
+    "min_commission": null,
+    "sell_tax_rate": null,
+    "transfer_fee_rate": null,
+    "slippage_bps": null,
+    "settlement_days": 1,
+    "require_trade_permissions": true
+  }
+}
+

@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "name": "Synthetic MA cross infrastructure demo",
+  "data": {
+    "path": "../data/sample/demo.csv",
+    "format": "csv",
+    "symbol": "SYNTHETIC",
+    "volume_unit": "shares",
+    "source": "synthetic",
+    "price_adjustment": "none",
+    "corporate_actions": "none"
+  },
+  "strategy": {"kind": "ma_cross_demo", "fast": 3, "slow": 5},
+  "execution": {
+    "initial_cash": "100000.00",
+    "lot_size": 100,
+    "commission_rate": "0.0003",
+    "min_commission": "5.00",
+    "sell_tax_rate": "0.0005",
+    "transfer_fee_rate": "0.00001",
+    "slippage_bps": "2",
+    "settlement_days": 1,
+    "require_trade_permissions": true
+  }
+}
+
