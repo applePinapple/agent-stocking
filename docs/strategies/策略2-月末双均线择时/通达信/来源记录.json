@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "kind": "exact_copy_of_source_bound_native_evaluated_strategy",
+  "strategy_id": 2,
+  "packaged_at": "2026-10-25T08:54:34+08:00",
+  "original_source": {
+    "path": "reports/strategy2-watchlist-20230101-20261023-preparation/strategy2-expert-formula.txt",
+    "sha256": "905fa14a901416fee4aaea75242afcc0fff346815bf58a888f33187795215c93",
+    "bytes": 906
+  },
+  "source_kind": "strategy2_native_expert",
+  "formula_encoding": "ASCII, no BOM; byte-for-byte preserved",
+  "packaged_formula": {
+    "file": "专家系统公式.txt",
+    "sha256": "905fa14a901416fee4aaea75242afcc0fff346815bf58a888f33187795215c93",
+    "bytes": 906
+  },
+  "native_run_evidence": [
+    {
+      "path": "reports/strategy2-watchlist-20230101-20261023-preparation/run-config.json",
+      "sha256": "eb2bd5bed75583bc499b061d80b030bc8fe1b14f7fafdb4170ffb15ac26476c9",
+      "bytes": 6010
+    },
+    {
+      "path": "reports/strategy2-watchlist-20230101-20261023-preparation/run-manifest.json",
+      "sha256": "55c18bf55c93e240cab742d8d16f0726ec11b0dd2168f6f7044e66fe4ac835ca",
+      "bytes": 20823
+    },
+    {
+      "path": "reports/strategy2-watchlist-20230101-20261023-preparation/native-full-results.xls",
+      "sha256": "653f487fa43fcc001d737318d6773a5618c22628cee4e0c787f05136dca5552f",
+      "bytes": 805
+    }
+  ],
+  "native_run_records": [],
+  "validation_note": "已通过本机语法测试并完成7股原生评测，42条流水已审计。",
+  "date_scope_note": "公式只有2023年1月至2026年9月的45个月末日期；必须在界面选择日线。未来日期需更新日历并重新核对。",
+  "copied_without_modifying_formula_or_rerunning_native_evaluation": true
+}

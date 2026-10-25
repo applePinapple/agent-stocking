@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "kind": "observed_native_evaluation_settings_for_exact_formula_copy",
+  "strategy_id": 8,
+  "client": "通达信金融终端V7.71",
+  "system": "程序交易评测系统",
+  "formula_file": "专家系统公式.txt",
+  "formula_sha256": "6c054836096c3186cb10d547debf32d059d77308efb1f2762f5bdabf9908f480",
+  "formula_type": "专家系统公式",
+  "original_tested_formula_name": "B321NAT",
+  "formula_parameters": [
+    {
+      "name": "SID",
+      "minimum": 3,
+      "maximum": 21,
+      "original_template_default": 3,
+      "required_run_value": 8
+    }
+  ],
+  "period": "日线",
+  "start": "2021-01-01",
+  "end": "2026-10-23",
+  "price_adjustment": "前复权",
+  "security_codes": [
+    "688017",
+    "688322",
+    "605488",
+    "603728",
+    "300750",
+    "601899",
+    "300308"
+  ],
+  "capital_per_security_cny": "1000000",
+  "shared_portfolio": false,
+  "capital_allocation": "全部可用资金，不叠加开仓",
+  "entry_price": "次周期开盘价",
+  "exit_price": "次周期开盘价",
+  "signal_direction": "仅ENTERLONG/EXITLONG，实际只做多",
+  "buy_fee_percent": "0.0500",
+  "sell_fee_percent": "0.1500",
+  "minimum_commission": "原观察界面未单独配置最低佣金，不补写市场默认值",
+  "slippage_minimum_ticks": 0,
+  "one_price_limit_bar_signal_delay": true,
+  "extra_stop_loss_take_profit_or_holding_period": false,
+  "force_end_close_included": true,
+  "requested_extra_history_bars": 2000,
+  "reference_index": "沪深300",
+  "date_scope_note": "源码的DLY与SPAN限定日线及2021-01-01至2026-10-23；仅修改评测界面结束日不会扩展公式信号范围。",
+  "configuration_source": "reports/strategies3-21-watchlist-20210101-20261023/run-manifest.json",
+  "new_native_run_performed_when_packaging": false
+}

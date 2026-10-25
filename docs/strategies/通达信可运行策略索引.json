@@ -1,0 +1,850 @@
+{
+  "schema_version": 3,
+  "kind": "local_exact_native_evaluated_formula_packages",
+  "packaged_at": "2026-10-25T08:54:34+08:00",
+  "requested_strategy_ids": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21
+  ],
+  "packaged_count": 14,
+  "packaged": [
+    {
+      "strategy_id": 2,
+      "name": "策略2-月末双均线择时",
+      "directory": "策略2-月末双均线择时/通达信",
+      "formula_sha256": "905fa14a901416fee4aaea75242afcc0fff346815bf58a888f33187795215c93",
+      "validation_note": "已通过本机语法测试并完成7股原生评测，42条流水已审计。",
+      "files": [
+        {
+          "path": "docs/strategies/策略2-月末双均线择时/通达信/专家系统公式.txt",
+          "sha256": "905fa14a901416fee4aaea75242afcc0fff346815bf58a888f33187795215c93",
+          "bytes": 906
+        },
+        {
+          "path": "docs/strategies/策略2-月末双均线择时/通达信/评测参数.json",
+          "sha256": "cc29384b56106fb56dbd450e4cbdf2f2a3ee4e38ce7866e6875745dcf2d54f08",
+          "bytes": 1669
+        },
+        {
+          "path": "docs/strategies/策略2-月末双均线择时/通达信/来源记录.json",
+          "sha256": "97f921483fe24208894c68f1daf369258a04b0bb4c0b2e7d9a7cd36c5267c5c8",
+          "bytes": 1692
+        },
+        {
+          "path": "docs/strategies/策略2-月末双均线择时/通达信/README.md",
+          "sha256": "1e30f1ce24924e9cc9bb7c212ae725bc4e1f40a9f3c4ab444577f07ad8cdab67",
+          "bytes": 5053
+        },
+        {
+          "path": "docs/strategies/策略2-月末双均线择时/通达信/策略2-程序交易评测方案.tes",
+          "sha256": "baf3b1afe974c3640687bcde15398f9d95f66e40f075541b42bbd174773e433d",
+          "bytes": 659
+        }
+      ],
+      "native_tes_plan": {
+        "status": "saved_native_ui_verified",
+        "path": "docs/strategies/策略2-月末双均线择时/通达信/策略2-程序交易评测方案.tes",
+        "sha256": "baf3b1afe974c3640687bcde15398f9d95f66e40f075541b42bbd174773e433d",
+        "bytes": 659,
+        "saved_via": "通达信程序交易评测系统→保存方案→原生另存为",
+        "client": "通达信金融终端V7.71",
+        "formula_name_at_save": "S2M50200",
+        "sid_at_save": null,
+        "matching_formula_sha256": "905fa14a901416fee4aaea75242afcc0fff346815bf58a888f33187795215c93",
+        "start": "2023-01-01",
+        "end": "2026-10-23",
+        "formula_and_sid_restored_by_tes": false,
+        "requires_matching_formula_source_and_manual_sid": true,
+        "formula_selection_evidence": "reports/tes-plan-save-20261025/003-S02-settings-before-save",
+        "save_dialog_evidence": "reports/tes-plan-save-20261025/004-S02-save-dialog",
+        "save_success_evidence": "reports/tes-plan-save-20261025/005-S02-save-success",
+        "progress_record": "reports/tes-plan-save-20261025/progress.json",
+        "settings_file": "docs/strategies/策略2-月末双均线择时/通达信/评测参数.json"
+      }
+    },
+    {
+      "strategy_id": 3,
+      "name": "策略3-月末200日均线择时",
+      "directory": "策略3-月末200日均线择时/通达信",
+      "formula_sha256": "6ae2099f90e671da420a16c0532f37c2aa33c47b85885570c84f7ce6f8b0c9ef",
+      "validation_note": "已有与本源码哈希绑定的本机实际评测和原生导出；完整核验范围见原报告。",
+      "files": [
+        {
+          "path": "docs/strategies/策略3-月末200日均线择时/通达信/专家系统公式.txt",
+          "sha256": "6ae2099f90e671da420a16c0532f37c2aa33c47b85885570c84f7ce6f8b0c9ef",
+          "bytes": 7946
+        },
+        {
+          "path": "docs/strategies/策略3-月末200日均线择时/通达信/评测参数.json",
+          "sha256": "98c3fb3343d9e4bed974aa1a7dcdb425a0f264cbef5a3696fab1d7c06c136eec",
+          "bytes": 1864
+        },
+        {
+          "path": "docs/strategies/策略3-月末200日均线择时/通达信/来源记录.json",
+          "sha256": "bc4bc0a46eb1d22ea6abad901ab26a4f2918c8a354a5f2c226cfbc5cf5873b97",
+          "bytes": 3538
+        },
+        {
+          "path": "docs/strategies/策略3-月末200日均线择时/通达信/README.md",
+          "sha256": "215e247a5cf6b50ba91515bc18fcdc3001f6dcc699f78bdb61c3acb059be1a1f",
+          "bytes": 5650
+        },
+        {
+          "path": "docs/strategies/策略3-月末200日均线择时/通达信/策略3-程序交易评测方案.tes",
+          "sha256": "d10d67ef7691475ad0ee7f5dfc7c54bc1ff603c4b0d52ad52645dde533dd8afb",
+          "bytes": 659
+        }
+      ],
+      "native_tes_plan": {
+        "status": "saved_native_ui_verified",
+        "path": "docs/strategies/策略3-月末200日均线择时/通达信/策略3-程序交易评测方案.tes",
+        "sha256": "d10d67ef7691475ad0ee7f5dfc7c54bc1ff603c4b0d52ad52645dde533dd8afb",
+        "bytes": 659,
+        "saved_via": "通达信程序交易评测系统→保存方案→原生另存为",
+        "client": "通达信金融终端V7.71",
+        "formula_name_at_save": "B321NAT",
+        "sid_at_save": 3,
+        "matching_formula_sha256": "6ae2099f90e671da420a16c0532f37c2aa33c47b85885570c84f7ce6f8b0c9ef",
+        "start": "2021-01-01",
+        "end": "2026-10-23",
+        "formula_and_sid_restored_by_tes": false,
+        "requires_matching_formula_source_and_manual_sid": true,
+        "formula_selection_evidence": "reports/tes-plan-save-20261025/017-S03-correct-source-SID3-settings",
+        "save_dialog_evidence": "reports/tes-plan-save-20261025/018-S03-rechecked-save-dialog",
+        "save_success_evidence": "reports/tes-plan-save-20261025/019-S03-rechecked-save-success",
+        "progress_record": "reports/tes-plan-save-20261025/progress.json",
+        "settings_file": "docs/strategies/策略3-月末200日均线择时/通达信/评测参数.json"
+      }
+    },
+    {
+      "strategy_id": 4,
+      "name": "策略4-MACD柱线翻转",
+      "directory": "策略4-MACD柱线翻转/通达信",
+      "formula_sha256": "6ae2099f90e671da420a16c0532f37c2aa33c47b85885570c84f7ce6f8b0c9ef",
+      "validation_note": "已有与本源码哈希绑定的本机实际评测和原生导出；完整核验范围见原报告。",
+      "files": [
+        {
+          "path": "docs/strategies/策略4-MACD柱线翻转/通达信/专家系统公式.txt",
+          "sha256": "6ae2099f90e671da420a16c0532f37c2aa33c47b85885570c84f7ce6f8b0c9ef",
+          "bytes": 7946
+        },
+        {
+          "path": "docs/strategies/策略4-MACD柱线翻转/通达信/评测参数.json",
+          "sha256": "f8b5c8bdef529ee46a10dba6c366e5babf176d7674b3c4a88a26d7598bf99893",
+          "bytes": 1796
+        },
+        {
+          "path": "docs/strategies/策略4-MACD柱线翻转/通达信/来源记录.json",
+          "sha256": "edf69b78027e5313747d72ab1fd850fc64333c0f1a0e7bc316d7e2e84bc66a10",
+          "bytes": 3471
+        },
+        {
+          "path": "docs/strategies/策略4-MACD柱线翻转/通达信/README.md",
+          "sha256": "de65e1dae6cc861ba20aeb0b2c8de514f6075acf97dea529ebcd2f5c2471e45a",
+          "bytes": 5461
+        },
+        {
+          "path": "docs/strategies/策略4-MACD柱线翻转/通达信/策略4-程序交易评测方案.tes",
+          "sha256": "d10d67ef7691475ad0ee7f5dfc7c54bc1ff603c4b0d52ad52645dde533dd8afb",
+          "bytes": 659
+        }
+      ],
+      "native_tes_plan": {
+        "status": "saved_native_ui_verified",
+        "path": "docs/strategies/策略4-MACD柱线翻转/通达信/策略4-程序交易评测方案.tes",
+        "sha256": "d10d67ef7691475ad0ee7f5dfc7c54bc1ff603c4b0d52ad52645dde533dd8afb",
+        "bytes": 659,
+        "saved_via": "通达信程序交易评测系统→保存方案→原生另存为",
+        "client": "通达信金融终端V7.71",
+        "formula_name_at_save": "B321NAT",
+        "sid_at_save": 4,
+        "matching_formula_sha256": "6ae2099f90e671da420a16c0532f37c2aa33c47b85885570c84f7ce6f8b0c9ef",
+        "start": "2021-01-01",
+        "end": "2026-10-23",
+        "formula_and_sid_restored_by_tes": false,
+        "requires_matching_formula_source_and_manual_sid": true,
+        "formula_selection_evidence": "reports/tes-plan-save-20261025/020-S04-correct-source-SID4",
+        "save_dialog_evidence": "reports/tes-plan-save-20261025/021-S04-save-dialog",
+        "save_success_evidence": "reports/tes-plan-save-20261025/022-S04-save-success",
+        "progress_record": "reports/tes-plan-save-20261025/progress.json",
+        "settings_file": "docs/strategies/策略4-MACD柱线翻转/通达信/评测参数.json"
+      }
+    },
+    {
+      "strategy_id": 5,
+      "name": "策略5-LambertCCI趋势",
+      "directory": "策略5-LambertCCI趋势/通达信",
+      "formula_sha256": "6ae2099f90e671da420a16c0532f37c2aa33c47b85885570c84f7ce6f8b0c9ef",
+      "validation_note": "已有与本源码哈希绑定的本机实际评测和原生导出；完整核验范围见原报告。",
+      "files": [
+        {
+          "path": "docs/strategies/策略5-LambertCCI趋势/通达信/专家系统公式.txt",
+          "sha256": "6ae2099f90e671da420a16c0532f37c2aa33c47b85885570c84f7ce6f8b0c9ef",
+          "bytes": 7946
+        },
+        {
+          "path": "docs/strategies/策略5-LambertCCI趋势/通达信/评测参数.json",
+          "sha256": "fd51e96625060082dd92055c91816711e2422fd7b4c2ece02e9cd19c758766a7",
+          "bytes": 1796
+        },
+        {
+          "path": "docs/strategies/策略5-LambertCCI趋势/通达信/来源记录.json",
+          "sha256": "d13f4e15c8f1b16a9b6f04c7d572233798d2eb955cb9e6f56d68594da45c0092",
+          "bytes": 3471
+        },
+        {
+          "path": "docs/strategies/策略5-LambertCCI趋势/通达信/README.md",
+          "sha256": "92a724fe5762aac10689376aa76a5ee1c56ddf5764f2694ab4a1b68fbb4190d8",
+          "bytes": 5461
+        },
+        {
+          "path": "docs/strategies/策略5-LambertCCI趋势/通达信/策略5-程序交易评测方案.tes",
+          "sha256": "d10d67ef7691475ad0ee7f5dfc7c54bc1ff603c4b0d52ad52645dde533dd8afb",
+          "bytes": 659
+        }
+      ],
+      "native_tes_plan": {
+        "status": "saved_native_ui_verified",
+        "path": "docs/strategies/策略5-LambertCCI趋势/通达信/策略5-程序交易评测方案.tes",
+        "sha256": "d10d67ef7691475ad0ee7f5dfc7c54bc1ff603c4b0d52ad52645dde533dd8afb",
+        "bytes": 659,
+        "saved_via": "通达信程序交易评测系统→保存方案→原生另存为",
+        "client": "通达信金融终端V7.71",
+        "formula_name_at_save": "B321NAT",
+        "sid_at_save": 5,
+        "matching_formula_sha256": "6ae2099f90e671da420a16c0532f37c2aa33c47b85885570c84f7ce6f8b0c9ef",
+        "start": "2021-01-01",
+        "end": "2026-10-23",
+        "formula_and_sid_restored_by_tes": false,
+        "requires_matching_formula_source_and_manual_sid": true,
+        "formula_selection_evidence": "reports/tes-plan-save-20261025/023-S05-correct-source-SID5",
+        "save_dialog_evidence": "reports/tes-plan-save-20261025/024-S05-save-dialog",
+        "save_success_evidence": "reports/tes-plan-save-20261025/025-S05-save-success",
+        "progress_record": "reports/tes-plan-save-20261025/progress.json",
+        "settings_file": "docs/strategies/策略5-LambertCCI趋势/通达信/评测参数.json"
+      }
+    },
+    {
+      "strategy_id": 8,
+      "name": "策略8-价格通道突破",
+      "directory": "策略8-价格通道突破/通达信",
+      "formula_sha256": "6c054836096c3186cb10d547debf32d059d77308efb1f2762f5bdabf9908f480",
+      "validation_note": "已运行并保存1126条流水，显示成交价已核；605488的2022-05-30、2022-06-09、2022-09-02三处信号布尔边界仍待核。",
+      "files": [
+        {
+          "path": "docs/strategies/策略8-价格通道突破/通达信/专家系统公式.txt",
+          "sha256": "6c054836096c3186cb10d547debf32d059d77308efb1f2762f5bdabf9908f480",
+          "bytes": 574
+        },
+        {
+          "path": "docs/strategies/策略8-价格通道突破/通达信/评测参数.json",
+          "sha256": "eaf31ff31baf155f76cc4d5e760d20e583d7e3e4260cd3d01b53878f78040386",
+          "bytes": 1796
+        },
+        {
+          "path": "docs/strategies/策略8-价格通道突破/通达信/来源记录.json",
+          "sha256": "e3b14d30e2446edb4c16e05c80ada79b56224cb32aa932e22b1f590c5ef4e86f",
+          "bytes": 2803
+        },
+        {
+          "path": "docs/strategies/策略8-价格通道突破/通达信/README.md",
+          "sha256": "af352c95617bed697dceef6b1a8c415d58fd4c5f787bc41a45d83294924e3858",
+          "bytes": 5284
+        },
+        {
+          "path": "docs/strategies/策略8-价格通道突破/通达信/策略8-程序交易评测方案.tes",
+          "sha256": "d10d67ef7691475ad0ee7f5dfc7c54bc1ff603c4b0d52ad52645dde533dd8afb",
+          "bytes": 659
+        }
+      ],
+      "native_tes_plan": {
+        "status": "saved_native_ui_verified",
+        "path": "docs/strategies/策略8-价格通道突破/通达信/策略8-程序交易评测方案.tes",
+        "sha256": "d10d67ef7691475ad0ee7f5dfc7c54bc1ff603c4b0d52ad52645dde533dd8afb",
+        "bytes": 659,
+        "saved_via": "通达信程序交易评测系统→保存方案→原生另存为",
+        "client": "通达信金融终端V7.71",
+        "formula_name_at_save": "B321NAT",
+        "sid_at_save": 8,
+        "matching_formula_sha256": "6c054836096c3186cb10d547debf32d059d77308efb1f2762f5bdabf9908f480",
+        "start": "2021-01-01",
+        "end": "2026-10-23",
+        "formula_and_sid_restored_by_tes": false,
+        "requires_matching_formula_source_and_manual_sid": true,
+        "formula_selection_evidence": "reports/tes-plan-save-20261025/012-S08-selected-SID8",
+        "save_dialog_evidence": "reports/tes-plan-save-20261025/013-S08-save-dialog",
+        "save_success_evidence": "reports/tes-plan-save-20261025/014-S08-save-success",
+        "progress_record": "reports/tes-plan-save-20261025/progress.json",
+        "settings_file": "docs/strategies/策略8-价格通道突破/通达信/评测参数.json"
+      }
+    },
+    {
+      "strategy_id": 9,
+      "name": "策略9-RSI2短期回归",
+      "directory": "策略9-RSI2短期回归/通达信",
+      "formula_sha256": "6ae2099f90e671da420a16c0532f37c2aa33c47b85885570c84f7ce6f8b0c9ef",
+      "validation_note": "已有与本源码哈希绑定的本机实际评测和原生导出；完整核验范围见原报告。",
+      "files": [
+        {
+          "path": "docs/strategies/策略9-RSI2短期回归/通达信/专家系统公式.txt",
+          "sha256": "6ae2099f90e671da420a16c0532f37c2aa33c47b85885570c84f7ce6f8b0c9ef",
+          "bytes": 7946
+        },
+        {
+          "path": "docs/strategies/策略9-RSI2短期回归/通达信/评测参数.json",
+          "sha256": "8a8ff0cf85467bcf4f2e6c8e6f9c44b87dff2696aaba5d0e0532e3a7475fa523",
+          "bytes": 1796
+        },
+        {
+          "path": "docs/strategies/策略9-RSI2短期回归/通达信/来源记录.json",
+          "sha256": "ab0649afa928eaade2830e1113089733104686ef4824bbd2eab31c30e8f23bac",
+          "bytes": 3471
+        },
+        {
+          "path": "docs/strategies/策略9-RSI2短期回归/通达信/README.md",
+          "sha256": "7f0577b213c7d724ff9e2b5a238c5d597bc2d123817416d829b34f9b3a5a02b0",
+          "bytes": 5461
+        },
+        {
+          "path": "docs/strategies/策略9-RSI2短期回归/通达信/策略9-程序交易评测方案.tes",
+          "sha256": "d10d67ef7691475ad0ee7f5dfc7c54bc1ff603c4b0d52ad52645dde533dd8afb",
+          "bytes": 659
+        }
+      ],
+      "native_tes_plan": {
+        "status": "saved_native_ui_verified",
+        "path": "docs/strategies/策略9-RSI2短期回归/通达信/策略9-程序交易评测方案.tes",
+        "sha256": "d10d67ef7691475ad0ee7f5dfc7c54bc1ff603c4b0d52ad52645dde533dd8afb",
+        "bytes": 659,
+        "saved_via": "通达信程序交易评测系统→保存方案→原生另存为",
+        "client": "通达信金融终端V7.71",
+        "formula_name_at_save": "B321NAT",
+        "sid_at_save": 9,
+        "matching_formula_sha256": "6ae2099f90e671da420a16c0532f37c2aa33c47b85885570c84f7ce6f8b0c9ef",
+        "start": "2021-01-01",
+        "end": "2026-10-23",
+        "formula_and_sid_restored_by_tes": false,
+        "requires_matching_formula_source_and_manual_sid": true,
+        "formula_selection_evidence": "reports/tes-plan-save-20261025/026-S09-correct-source-SID9",
+        "save_dialog_evidence": "reports/tes-plan-save-20261025/027-S09-save-dialog",
+        "save_success_evidence": "reports/tes-plan-save-20261025/028-S09-save-success",
+        "progress_record": "reports/tes-plan-save-20261025/progress.json",
+        "settings_file": "docs/strategies/策略9-RSI2短期回归/通达信/评测参数.json"
+      }
+    },
+    {
+      "strategy_id": 10,
+      "name": "策略10-Double7七日回归",
+      "directory": "策略10-Double7七日回归/通达信",
+      "formula_sha256": "3e1964691892541038bbfe4bc7ce7677e3bf0f073cd401008f225f18019146c2",
+      "validation_note": "已有与本源码哈希绑定的本机实际评测和原生导出；完整核验范围见原报告。",
+      "files": [
+        {
+          "path": "docs/strategies/策略10-Double7七日回归/通达信/专家系统公式.txt",
+          "sha256": "3e1964691892541038bbfe4bc7ce7677e3bf0f073cd401008f225f18019146c2",
+          "bytes": 577
+        },
+        {
+          "path": "docs/strategies/策略10-Double7七日回归/通达信/评测参数.json",
+          "sha256": "a861c45fa30bd98f94eb9389ae1f803e43264f3b7a2ae8a4a91e35deea1696a1",
+          "bytes": 1798
+        },
+        {
+          "path": "docs/strategies/策略10-Double7七日回归/通达信/来源记录.json",
+          "sha256": "1778502cec7438e480ce596bfc32a6e982887c1bb257eaf38317cabe40a44fad",
+          "bytes": 2845
+        },
+        {
+          "path": "docs/strategies/策略10-Double7七日回归/通达信/README.md",
+          "sha256": "9aaebe0408a6409e97b5d8398b7f23c612dd0b106fb2884a96b8631e352b367e",
+          "bytes": 5258
+        },
+        {
+          "path": "docs/strategies/策略10-Double7七日回归/通达信/策略10-程序交易评测方案.tes",
+          "sha256": "d10d67ef7691475ad0ee7f5dfc7c54bc1ff603c4b0d52ad52645dde533dd8afb",
+          "bytes": 659
+        }
+      ],
+      "native_tes_plan": {
+        "status": "saved_native_ui_verified",
+        "path": "docs/strategies/策略10-Double7七日回归/通达信/策略10-程序交易评测方案.tes",
+        "sha256": "d10d67ef7691475ad0ee7f5dfc7c54bc1ff603c4b0d52ad52645dde533dd8afb",
+        "bytes": 659,
+        "saved_via": "通达信程序交易评测系统→保存方案→原生另存为",
+        "client": "通达信金融终端V7.71",
+        "formula_name_at_save": "B321NAT",
+        "sid_at_save": 10,
+        "matching_formula_sha256": "3e1964691892541038bbfe4bc7ce7677e3bf0f073cd401008f225f18019146c2",
+        "start": "2021-01-01",
+        "end": "2026-10-23",
+        "formula_and_sid_restored_by_tes": false,
+        "requires_matching_formula_source_and_manual_sid": true,
+        "formula_selection_evidence": "reports/tes-plan-save-20261025/030-S10-correct-source-SID10",
+        "save_dialog_evidence": "reports/tes-plan-save-20261025/031-S10-save-dialog",
+        "save_success_evidence": "reports/tes-plan-save-20261025/032-S10-save-success",
+        "progress_record": "reports/tes-plan-save-20261025/progress.json",
+        "settings_file": "docs/strategies/策略10-Double7七日回归/通达信/评测参数.json"
+      }
+    },
+    {
+      "strategy_id": 12,
+      "name": "策略12-R3三日RSI回落",
+      "directory": "策略12-R3三日RSI回落/通达信",
+      "formula_sha256": "8b960e500fd0f3ea99e9e6b35171e46d81f07845984def4557abec641ab1c17e",
+      "validation_note": "已有与本源码哈希绑定的本机实际评测和原生导出；完整核验范围见原报告。",
+      "files": [
+        {
+          "path": "docs/strategies/策略12-R3三日RSI回落/通达信/专家系统公式.txt",
+          "sha256": "8b960e500fd0f3ea99e9e6b35171e46d81f07845984def4557abec641ab1c17e",
+          "bytes": 956
+        },
+        {
+          "path": "docs/strategies/策略12-R3三日RSI回落/通达信/评测参数.json",
+          "sha256": "8b4964b07f9d88f2892d1cf30f601aab1c24e1126e44fd112d9e7bb1069aac71",
+          "bytes": 1798
+        },
+        {
+          "path": "docs/strategies/策略12-R3三日RSI回落/通达信/来源记录.json",
+          "sha256": "348380043193831075636d97586654051e5d1fe6919db657d5bbaff9ef8287f1",
+          "bytes": 2845
+        },
+        {
+          "path": "docs/strategies/策略12-R3三日RSI回落/通达信/README.md",
+          "sha256": "788a0d2d485f6af273e0a379e8987f9b9ab9ec45f720cd6ab793b48cad612db8",
+          "bytes": 5254
+        },
+        {
+          "path": "docs/strategies/策略12-R3三日RSI回落/通达信/策略12-程序交易评测方案.tes",
+          "sha256": "d10d67ef7691475ad0ee7f5dfc7c54bc1ff603c4b0d52ad52645dde533dd8afb",
+          "bytes": 659
+        }
+      ],
+      "native_tes_plan": {
+        "status": "saved_native_ui_verified",
+        "path": "docs/strategies/策略12-R3三日RSI回落/通达信/策略12-程序交易评测方案.tes",
+        "sha256": "d10d67ef7691475ad0ee7f5dfc7c54bc1ff603c4b0d52ad52645dde533dd8afb",
+        "bytes": 659,
+        "saved_via": "通达信程序交易评测系统→保存方案→原生另存为",
+        "client": "通达信金融终端V7.71",
+        "formula_name_at_save": "B321NAT",
+        "sid_at_save": 12,
+        "matching_formula_sha256": "8b960e500fd0f3ea99e9e6b35171e46d81f07845984def4557abec641ab1c17e",
+        "start": "2021-01-01",
+        "end": "2026-10-23",
+        "formula_and_sid_restored_by_tes": false,
+        "requires_matching_formula_source_and_manual_sid": true,
+        "formula_selection_evidence": "reports/tes-plan-save-20261025/034-S12-correct-source-SID12",
+        "save_dialog_evidence": "reports/tes-plan-save-20261025/035-S12-save-dialog",
+        "save_success_evidence": "reports/tes-plan-save-20261025/036-S12-save-success",
+        "progress_record": "reports/tes-plan-save-20261025/progress.json",
+        "settings_file": "docs/strategies/策略12-R3三日RSI回落/通达信/评测参数.json"
+      }
+    },
+    {
+      "strategy_id": 15,
+      "name": "策略15-三日高低点回落",
+      "directory": "策略15-三日高低点回落/通达信",
+      "formula_sha256": "8618e831360be73990d4e577d905e62c18ee3f626abb14d8e37216c04cfe10bd",
+      "validation_note": "已有与本源码哈希绑定的本机实际评测和原生导出；完整核验范围见原报告。",
+      "files": [
+        {
+          "path": "docs/strategies/策略15-三日高低点回落/通达信/专家系统公式.txt",
+          "sha256": "8618e831360be73990d4e577d905e62c18ee3f626abb14d8e37216c04cfe10bd",
+          "bytes": 704
+        },
+        {
+          "path": "docs/strategies/策略15-三日高低点回落/通达信/评测参数.json",
+          "sha256": "65a2aaec0a5431d99d47acaa822a2d7f0ee7e49728edd074ca3aff0c96fac69b",
+          "bytes": 1798
+        },
+        {
+          "path": "docs/strategies/策略15-三日高低点回落/通达信/来源记录.json",
+          "sha256": "bdfe0ca64b84eb3327a2abcc095b31d7c14496028771822bddbfd86ea341b7f0",
+          "bytes": 2846
+        },
+        {
+          "path": "docs/strategies/策略15-三日高低点回落/通达信/README.md",
+          "sha256": "eee7b84947ee072ec2529b4c3e34d4451a0cc062ee03caedae78abd2b1aee942",
+          "bytes": 5262
+        },
+        {
+          "path": "docs/strategies/策略15-三日高低点回落/通达信/策略15-程序交易评测方案.tes",
+          "sha256": "d10d67ef7691475ad0ee7f5dfc7c54bc1ff603c4b0d52ad52645dde533dd8afb",
+          "bytes": 659
+        }
+      ],
+      "native_tes_plan": {
+        "status": "saved_native_ui_verified",
+        "path": "docs/strategies/策略15-三日高低点回落/通达信/策略15-程序交易评测方案.tes",
+        "sha256": "d10d67ef7691475ad0ee7f5dfc7c54bc1ff603c4b0d52ad52645dde533dd8afb",
+        "bytes": 659,
+        "saved_via": "通达信程序交易评测系统→保存方案→原生另存为",
+        "client": "通达信金融终端V7.71",
+        "formula_name_at_save": "B321NAT",
+        "sid_at_save": 15,
+        "matching_formula_sha256": "8618e831360be73990d4e577d905e62c18ee3f626abb14d8e37216c04cfe10bd",
+        "start": "2021-01-01",
+        "end": "2026-10-23",
+        "formula_and_sid_restored_by_tes": false,
+        "requires_matching_formula_source_and_manual_sid": true,
+        "formula_selection_evidence": "reports/tes-plan-save-20261025/038-S15-correct-source-SID15",
+        "save_dialog_evidence": "reports/tes-plan-save-20261025/039-S15-save-dialog",
+        "save_success_evidence": "reports/tes-plan-save-20261025/040-S15-save-success",
+        "progress_record": "reports/tes-plan-save-20261025/progress.json",
+        "settings_file": "docs/strategies/策略15-三日高低点回落/通达信/评测参数.json"
+      }
+    },
+    {
+      "strategy_id": 16,
+      "name": "策略16-均值回归带与IBS",
+      "directory": "策略16-均值回归带与IBS/通达信",
+      "formula_sha256": "e10324dfd00b2b5e7c6205f710b2a29d3cd9e5bba4a22394556a7ef3f50a3c17",
+      "validation_note": "已完成7股原生评测；986条合并流水由7份原生分股文件拼接，并非一次原生综合导出。",
+      "files": [
+        {
+          "path": "docs/strategies/策略16-均值回归带与IBS/通达信/专家系统公式.txt",
+          "sha256": "e10324dfd00b2b5e7c6205f710b2a29d3cd9e5bba4a22394556a7ef3f50a3c17",
+          "bytes": 677
+        },
+        {
+          "path": "docs/strategies/策略16-均值回归带与IBS/通达信/评测参数.json",
+          "sha256": "c84fa1778d59e4db871aef8715e5165c0c76021314101888e1e8df8ee5b9a1e9",
+          "bytes": 1798
+        },
+        {
+          "path": "docs/strategies/策略16-均值回归带与IBS/通达信/来源记录.json",
+          "sha256": "c80015b81be470c92523e17b9a8e0d2079c885e30bdff45c9de0ed5a3bf5695d",
+          "bytes": 3890
+        },
+        {
+          "path": "docs/strategies/策略16-均值回归带与IBS/通达信/README.md",
+          "sha256": "e4b7e2cbe299d6148766d99627ed82b1295d9587251301737cffb6a9ec771ffc",
+          "bytes": 5273
+        },
+        {
+          "path": "docs/strategies/策略16-均值回归带与IBS/通达信/策略16-程序交易评测方案.tes",
+          "sha256": "d10d67ef7691475ad0ee7f5dfc7c54bc1ff603c4b0d52ad52645dde533dd8afb",
+          "bytes": 659
+        }
+      ],
+      "native_tes_plan": {
+        "status": "saved_native_ui_verified",
+        "path": "docs/strategies/策略16-均值回归带与IBS/通达信/策略16-程序交易评测方案.tes",
+        "sha256": "d10d67ef7691475ad0ee7f5dfc7c54bc1ff603c4b0d52ad52645dde533dd8afb",
+        "bytes": 659,
+        "saved_via": "通达信程序交易评测系统→保存方案→原生另存为",
+        "client": "通达信金融终端V7.71",
+        "formula_name_at_save": "B321NAT",
+        "sid_at_save": 16,
+        "matching_formula_sha256": "e10324dfd00b2b5e7c6205f710b2a29d3cd9e5bba4a22394556a7ef3f50a3c17",
+        "start": "2021-01-01",
+        "end": "2026-10-23",
+        "formula_and_sid_restored_by_tes": false,
+        "requires_matching_formula_source_and_manual_sid": true,
+        "formula_selection_evidence": "reports/tes-plan-save-20261025/042-S16-correct-source-SID16",
+        "save_dialog_evidence": "reports/tes-plan-save-20261025/043-S16-save-dialog",
+        "save_success_evidence": "reports/tes-plan-save-20261025/044-S16-save-success",
+        "progress_record": "reports/tes-plan-save-20261025/progress.json",
+        "settings_file": "docs/strategies/策略16-均值回归带与IBS/通达信/评测参数.json"
+      }
+    },
+    {
+      "strategy_id": 17,
+      "name": "策略17-WilliamsR短期反转",
+      "directory": "策略17-WilliamsR短期反转/通达信",
+      "formula_sha256": "ef4faba71023c2fd1d8d4f5741e40b3129a09b5e95b86ee37dd88be0cf145ab0",
+      "validation_note": "已运行，用户接受现状；原生汇总及6股1304条流水保留，688322缺172条明细，未称完整流水核验。",
+      "files": [
+        {
+          "path": "docs/strategies/策略17-WilliamsR短期反转/通达信/专家系统公式.txt",
+          "sha256": "ef4faba71023c2fd1d8d4f5741e40b3129a09b5e95b86ee37dd88be0cf145ab0",
+          "bytes": 678
+        },
+        {
+          "path": "docs/strategies/策略17-WilliamsR短期反转/通达信/评测参数.json",
+          "sha256": "a830937ff5dad4b7cdb089c2b1041bc499b167ad46acaeae743238455f2569f8",
+          "bytes": 1798
+        },
+        {
+          "path": "docs/strategies/策略17-WilliamsR短期反转/通达信/来源记录.json",
+          "sha256": "c5bc0081a620b0c8efb0e3b167021dc0e5304a092a91ac6d33661e029bce7d82",
+          "bytes": 3423
+        },
+        {
+          "path": "docs/strategies/策略17-WilliamsR短期反转/通达信/README.md",
+          "sha256": "37578050f38f5048616085dd40cb18f9c43e18cd65e9ee7d615164506440a51c",
+          "bytes": 5285
+        },
+        {
+          "path": "docs/strategies/策略17-WilliamsR短期反转/通达信/策略17-程序交易评测方案.tes",
+          "sha256": "d10d67ef7691475ad0ee7f5dfc7c54bc1ff603c4b0d52ad52645dde533dd8afb",
+          "bytes": 659
+        }
+      ],
+      "native_tes_plan": {
+        "status": "saved_native_ui_verified",
+        "path": "docs/strategies/策略17-WilliamsR短期反转/通达信/策略17-程序交易评测方案.tes",
+        "sha256": "d10d67ef7691475ad0ee7f5dfc7c54bc1ff603c4b0d52ad52645dde533dd8afb",
+        "bytes": 659,
+        "saved_via": "通达信程序交易评测系统→保存方案→原生另存为",
+        "client": "通达信金融终端V7.71",
+        "formula_name_at_save": "B321NAT",
+        "sid_at_save": 17,
+        "matching_formula_sha256": "ef4faba71023c2fd1d8d4f5741e40b3129a09b5e95b86ee37dd88be0cf145ab0",
+        "start": "2021-01-01",
+        "end": "2026-10-23",
+        "formula_and_sid_restored_by_tes": false,
+        "requires_matching_formula_source_and_manual_sid": true,
+        "formula_selection_evidence": "reports/tes-plan-save-20261025/046-S17-correct-source-SID17",
+        "save_dialog_evidence": "reports/tes-plan-save-20261025/047-S17-save-dialog",
+        "save_success_evidence": "reports/tes-plan-save-20261025/048-S17-save-success",
+        "progress_record": "reports/tes-plan-save-20261025/progress.json",
+        "settings_file": "docs/strategies/策略17-WilliamsR短期反转/通达信/评测参数.json"
+      }
+    },
+    {
+      "strategy_id": 18,
+      "name": "策略18-周二反转",
+      "directory": "策略18-周二反转/通达信",
+      "formula_sha256": "a0598b05ff2fc01f92d75afe44467640e51ad5b7569dbbfe6e92d97767d3f84d",
+      "validation_note": "已有与本源码哈希绑定的本机实际评测和原生导出；完整核验范围见原报告。",
+      "files": [
+        {
+          "path": "docs/strategies/策略18-周二反转/通达信/专家系统公式.txt",
+          "sha256": "a0598b05ff2fc01f92d75afe44467640e51ad5b7569dbbfe6e92d97767d3f84d",
+          "bytes": 736
+        },
+        {
+          "path": "docs/strategies/策略18-周二反转/通达信/评测参数.json",
+          "sha256": "a9ae9119c332fc92c3027a259a3df1a00f70d3b3f80123b6c0dfa84a70685857",
+          "bytes": 1798
+        },
+        {
+          "path": "docs/strategies/策略18-周二反转/通达信/来源记录.json",
+          "sha256": "491ff3c2205c65498c91673d2a3f1cf164d76cd312adc41a43851ac9263079ed",
+          "bytes": 2846
+        },
+        {
+          "path": "docs/strategies/策略18-周二反转/通达信/README.md",
+          "sha256": "07a03790fa2a8a30ae73b2295171695dcf90fc4c9c9e648fa0427c41421a3c6c",
+          "bytes": 5244
+        },
+        {
+          "path": "docs/strategies/策略18-周二反转/通达信/策略18-程序交易评测方案.tes",
+          "sha256": "d10d67ef7691475ad0ee7f5dfc7c54bc1ff603c4b0d52ad52645dde533dd8afb",
+          "bytes": 659
+        }
+      ],
+      "native_tes_plan": {
+        "status": "saved_native_ui_verified",
+        "path": "docs/strategies/策略18-周二反转/通达信/策略18-程序交易评测方案.tes",
+        "sha256": "d10d67ef7691475ad0ee7f5dfc7c54bc1ff603c4b0d52ad52645dde533dd8afb",
+        "bytes": 659,
+        "saved_via": "通达信程序交易评测系统→保存方案→原生另存为",
+        "client": "通达信金融终端V7.71",
+        "formula_name_at_save": "B321NAT",
+        "sid_at_save": 18,
+        "matching_formula_sha256": "a0598b05ff2fc01f92d75afe44467640e51ad5b7569dbbfe6e92d97767d3f84d",
+        "start": "2021-01-01",
+        "end": "2026-10-23",
+        "formula_and_sid_restored_by_tes": false,
+        "requires_matching_formula_source_and_manual_sid": true,
+        "formula_selection_evidence": "reports/tes-plan-save-20261025/050-S18-correct-source-SID18",
+        "save_dialog_evidence": "reports/tes-plan-save-20261025/052-S18-save-dialog",
+        "save_success_evidence": "reports/tes-plan-save-20261025/053-S18-save-success",
+        "progress_record": "reports/tes-plan-save-20261025/progress.json",
+        "settings_file": "docs/strategies/策略18-周二反转/通达信/评测参数.json"
+      }
+    },
+    {
+      "strategy_id": 19,
+      "name": "策略19-月末月初日历效应",
+      "directory": "策略19-月末月初日历效应/通达信",
+      "formula_sha256": "fc28011d596d512b16c2674ca36f83581d43c6582207068cc2beb45a5cc6d69f",
+      "validation_note": "已有与本源码哈希绑定的本机实际评测和原生导出；完整核验范围见原报告。",
+      "files": [
+        {
+          "path": "docs/strategies/策略19-月末月初日历效应/通达信/专家系统公式.txt",
+          "sha256": "fc28011d596d512b16c2674ca36f83581d43c6582207068cc2beb45a5cc6d69f",
+          "bytes": 2988
+        },
+        {
+          "path": "docs/strategies/策略19-月末月初日历效应/通达信/评测参数.json",
+          "sha256": "06d6366a54dc2ee87855ec98152315281ec1b48723358613004c716e5ce2db5f",
+          "bytes": 1892
+        },
+        {
+          "path": "docs/strategies/策略19-月末月初日历效应/通达信/来源记录.json",
+          "sha256": "3e941b34a5bfd5b9573231084be2ff6033bf9af90c9465386cd9c56bf88e8c73",
+          "bytes": 2942
+        },
+        {
+          "path": "docs/strategies/策略19-月末月初日历效应/通达信/README.md",
+          "sha256": "47153121ea415569fc2a56114edb0863e179c233235fbf2b9223b7b6e3afd9e2",
+          "bytes": 5362
+        },
+        {
+          "path": "docs/strategies/策略19-月末月初日历效应/通达信/策略19-程序交易评测方案.tes",
+          "sha256": "d10d67ef7691475ad0ee7f5dfc7c54bc1ff603c4b0d52ad52645dde533dd8afb",
+          "bytes": 659
+        }
+      ],
+      "native_tes_plan": {
+        "status": "saved_native_ui_verified",
+        "path": "docs/strategies/策略19-月末月初日历效应/通达信/策略19-程序交易评测方案.tes",
+        "sha256": "d10d67ef7691475ad0ee7f5dfc7c54bc1ff603c4b0d52ad52645dde533dd8afb",
+        "bytes": 659,
+        "saved_via": "通达信程序交易评测系统→保存方案→原生另存为",
+        "client": "通达信金融终端V7.71",
+        "formula_name_at_save": "B321NAT",
+        "sid_at_save": 19,
+        "matching_formula_sha256": "fc28011d596d512b16c2674ca36f83581d43c6582207068cc2beb45a5cc6d69f",
+        "start": "2021-01-01",
+        "end": "2026-10-23",
+        "formula_and_sid_restored_by_tes": false,
+        "requires_matching_formula_source_and_manual_sid": true,
+        "formula_selection_evidence": "reports/tes-plan-save-20261025/055-S19-correct-source-SID19",
+        "save_dialog_evidence": "reports/tes-plan-save-20261025/056-S19-save-dialog",
+        "save_success_evidence": "reports/tes-plan-save-20261025/057-S19-save-success",
+        "progress_record": "reports/tes-plan-save-20261025/progress.json",
+        "settings_file": "docs/strategies/策略19-月末月初日历效应/通达信/评测参数.json"
+      }
+    },
+    {
+      "strategy_id": 21,
+      "name": "策略21-TTM波动挤压释放",
+      "directory": "策略21-TTM波动挤压释放/通达信",
+      "formula_sha256": "bb38b0f4176b4bbeb632f79a5bdfb7cd2a2e082161f9da9074317da6aae39df3",
+      "validation_note": "七股128条信号日期、显示成交价和期末状态专项核验完成；初值及舍入差仍保留，不宣称内部逐位一致。",
+      "files": [
+        {
+          "path": "docs/strategies/策略21-TTM波动挤压释放/通达信/专家系统公式.txt",
+          "sha256": "bb38b0f4176b4bbeb632f79a5bdfb7cd2a2e082161f9da9074317da6aae39df3",
+          "bytes": 888
+        },
+        {
+          "path": "docs/strategies/策略21-TTM波动挤压释放/通达信/评测参数.json",
+          "sha256": "7c8380f8ac6fe7d05fcb364c73fdfa2b6c2f89981d8b6e179d15f0ed025bc7ff",
+          "bytes": 1798
+        },
+        {
+          "path": "docs/strategies/策略21-TTM波动挤压释放/通达信/来源记录.json",
+          "sha256": "3922ab674185402207734946b9ce3430006b071d1ac3e3404cd8f7170afb245c",
+          "bytes": 2804
+        },
+        {
+          "path": "docs/strategies/策略21-TTM波动挤压释放/通达信/README.md",
+          "sha256": "8f7a39f18294b1738ca3792fae20bab3dd61ee3f2b3ff9ba427db4536c05c8ee",
+          "bytes": 5298
+        },
+        {
+          "path": "docs/strategies/策略21-TTM波动挤压释放/通达信/策略21-程序交易评测方案.tes",
+          "sha256": "d10d67ef7691475ad0ee7f5dfc7c54bc1ff603c4b0d52ad52645dde533dd8afb",
+          "bytes": 659
+        }
+      ],
+      "native_tes_plan": {
+        "status": "saved_native_ui_verified",
+        "path": "docs/strategies/策略21-TTM波动挤压释放/通达信/策略21-程序交易评测方案.tes",
+        "sha256": "d10d67ef7691475ad0ee7f5dfc7c54bc1ff603c4b0d52ad52645dde533dd8afb",
+        "bytes": 659,
+        "saved_via": "通达信程序交易评测系统→保存方案→原生另存为",
+        "client": "通达信金融终端V7.71",
+        "formula_name_at_save": "B321NAT",
+        "sid_at_save": 21,
+        "matching_formula_sha256": "bb38b0f4176b4bbeb632f79a5bdfb7cd2a2e082161f9da9074317da6aae39df3",
+        "start": "2021-01-01",
+        "end": "2026-10-23",
+        "formula_and_sid_restored_by_tes": false,
+        "requires_matching_formula_source_and_manual_sid": true,
+        "formula_selection_evidence": "reports/tes-plan-save-20261025/059-S21-correct-source-SID21",
+        "save_dialog_evidence": "reports/tes-plan-save-20261025/060-S21-save-dialog",
+        "save_success_evidence": "reports/tes-plan-save-20261025/061-S21-save-success",
+        "progress_record": "reports/tes-plan-save-20261025/progress.json",
+        "settings_file": "docs/strategies/策略21-TTM波动挤压释放/通达信/评测参数.json"
+      }
+    }
+  ],
+  "not_yet_native_run_verified": [
+    {
+      "strategy_id": 6,
+      "reason": "standalone-v3已准备，仍待本机编译、运行和评测；旧拆分版本曾导致客户端退出。"
+    },
+    {
+      "strategy_id": 7,
+      "reason": "已取得本机SAR/SARTURN对照，尚无该专家公式完整原生评测记录。"
+    },
+    {
+      "strategy_id": 11,
+      "reason": "分批执行器已实现，仍待本机分批能力验证与具体规则确认。"
+    },
+    {
+      "strategy_id": 13,
+      "reason": "四档分批执行器已实现，仍待本机能力验证与具体规则确认。"
+    },
+    {
+      "strategy_id": 14,
+      "reason": "共享组合及历史筛选输入已准备，尚非本机可运行的完整组合策略。"
+    },
+    {
+      "strategy_id": 20,
+      "reason": "共享轮动执行已准备，仍待本机能力、基准和组合口径确认及正式执行。"
+    }
+  ],
+  "all_packaged_formula_bytes_equal_originals": true,
+  "new_native_runs": 0,
+  "new_return_calculations": 0,
+  "native_tes_save_summary": {
+    "status": "completed",
+    "verified_count": 14,
+    "verified_strategy_ids": [
+      2,
+      3,
+      4,
+      5,
+      8,
+      9,
+      10,
+      12,
+      15,
+      16,
+      17,
+      18,
+      19,
+      21
+    ],
+    "pending_formula_sid_recheck": [],
+    "pending_save": [],
+    "readback": {
+      "plan": "S02",
+      "before": "B321NAT/SID8",
+      "after": "B321NAT/SID8",
+      "start_after": "2023-01-01",
+      "conclusion": "tes does not restore formula or SID in this observed V7.71 session"
+    },
+    "awaiting": null,
+    "custom_formula_save_authorized_by_user": true,
+    "evidence_manifest": "reports/tes-plan-save-20261025/native-tes-manifest.json",
+    "new_native_runs": 0,
+    "new_return_calculations": 0
+  },
+  "native_tes_updated_at": "2026-10-25T11:52:52+08:00"
+}

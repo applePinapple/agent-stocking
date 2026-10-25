@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "kind": "exact_copy_of_source_bound_native_evaluated_strategy",
+  "strategy_id": 17,
+  "packaged_at": "2026-10-25T08:54:34+08:00",
+  "original_source": {
+    "path": "reports/strategies3-21-watchlist-20210101-20261023/native-evaluation/per-strategy/S17-expert.txt",
+    "sha256": "ef4faba71023c2fd1d8d4f5741e40b3129a09b5e95b86ee37dd88be0cf145ab0",
+    "bytes": 678
+  },
+  "source_kind": "actual_specialized_expert",
+  "formula_encoding": "ASCII, no BOM; byte-for-byte preserved",
+  "packaged_formula": {
+    "file": "专家系统公式.txt",
+    "sha256": "ef4faba71023c2fd1d8d4f5741e40b3129a09b5e95b86ee37dd88be0cf145ab0",
+    "bytes": 678
+  },
+  "native_run_evidence": [
+    {
+      "path": "reports/strategies3-21-watchlist-20210101-20261023/native-results/S17/native-summary.xls",
+      "sha256": "e279a435747388dff87cd5a701090b4f6ff5f89741ca1623de93b263d6abfb37",
+      "bytes": 866
+    },
+    {
+      "path": "reports/strategies3-21-watchlist-20210101-20261023/native-results/S17/native-trades-partial.manifest.json",
+      "sha256": "376e82417fafda652184b258839ac83bd465d84d5e1848a93af7056b1b5e1dbd",
+      "bytes": 6122
+    },
+    {
+      "path": "reports/strategies3-21-watchlist-20210101-20261023/run-manifest.json",
+      "sha256": "1b2671563e5b24bc3d2e08877a3f83fd737e561479a1f6dc792899c44863e42b",
+      "bytes": 128489
+    },
+    {
+      "path": "reports/strategies3-21-watchlist-20210101-20261023/strategy-status.json",
+      "sha256": "9899ee97b6cacde1f9a08f50ebef12726c85ddf7d16beae7731c87ddc431c40b",
+      "bytes": 277084
+    }
+  ],
+  "native_run_records": [
+    {
+      "source_log": "reports/strategies3-21-watchlist-20210101-20261023/native-run-source-log.jsonl",
+      "line": 15,
+      "line_sha256_utf8": "aa3e2c8b03a105b46123cfcf7b56e035524d0e7f064f0d35450b4d2a46795757",
+      "record": {
+        "schema_version": 1,
+        "event": "user_acceptance_of_existing_native_summary_with_incomplete_ledger",
+        "recorded_at_local": "2026-10-24T23:53:55+08:00",
+        "sid": 17,
+        "formula_name": "B321NAT",
+        "source_kind": "dependency_specialization_equivalent",
+        "source_path": "native-evaluation/per-strategy/S17-expert.txt",
+        "source_sha256": "ef4faba71023c2fd1d8d4f5741e40b3129a09b5e95b86ee37dd88be0cf145ab0",
+        "summary_path": "native-results/S17/native-summary.xls",
+        "summary_sha256": "e279a435747388dff87cd5a701090b4f6ff5f89741ca1623de93b263d6abfb37",
+        "trades_path": null,
+        "trades_sha256": null,
+        "partial_manifest_path": "native-results/S17/native-trades-partial.manifest.json",
+        "partial_manifest_sha256": "376e82417fafda652184b258839ac83bd465d84d5e1848a93af7056b1b5e1dbd",
+        "run_status": "user_accepted_with_incomplete_ledger",
+        "native_full_ledger_audit_completed": false,
+        "missing_code": "688322",
+        "missing_rows": 172,
+        "provenance": "No new native run; user accepts closure of the existing source-bound summary and six preserved per-security exports."
+      }
+    }
+  ],
+  "validation_note": "已运行，用户接受现状；原生汇总及6股1304条流水保留，688322缺172条明细，未称完整流水核验。",
+  "date_scope_note": "源码的DLY与SPAN限定日线及2021-01-01至2026-10-23；仅修改评测界面结束日不会扩展公式信号范围。",
+  "copied_without_modifying_formula_or_rerunning_native_evaluation": true
+}

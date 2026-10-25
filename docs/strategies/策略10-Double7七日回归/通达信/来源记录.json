@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "kind": "exact_copy_of_source_bound_native_evaluated_strategy",
+  "strategy_id": 10,
+  "packaged_at": "2026-10-25T08:54:34+08:00",
+  "original_source": {
+    "path": "reports/strategies3-21-watchlist-20210101-20261023/native-evaluation/per-strategy/S10-expert.txt",
+    "sha256": "3e1964691892541038bbfe4bc7ce7677e3bf0f073cd401008f225f18019146c2",
+    "bytes": 577
+  },
+  "source_kind": "actual_specialized_expert",
+  "formula_encoding": "ASCII, no BOM; byte-for-byte preserved",
+  "packaged_formula": {
+    "file": "专家系统公式.txt",
+    "sha256": "3e1964691892541038bbfe4bc7ce7677e3bf0f073cd401008f225f18019146c2",
+    "bytes": 577
+  },
+  "native_run_evidence": [
+    {
+      "path": "reports/strategies3-21-watchlist-20210101-20261023/native-results/S10/native-summary.xls",
+      "sha256": "5039567736b0a510442167b327d9c00e6614a3cbbd80a87ede0f8108430cdc82",
+      "bytes": 850
+    },
+    {
+      "path": "reports/strategies3-21-watchlist-20210101-20261023/native-results/S10/native-trades-all.xls",
+      "sha256": "e14b9a54c921ebb1f2fc079f5e595401f46fa94f2ed6c64b4592da82b779f7b2",
+      "bytes": 55050
+    },
+    {
+      "path": "reports/strategies3-21-watchlist-20210101-20261023/run-manifest.json",
+      "sha256": "1b2671563e5b24bc3d2e08877a3f83fd737e561479a1f6dc792899c44863e42b",
+      "bytes": 128489
+    },
+    {
+      "path": "reports/strategies3-21-watchlist-20210101-20261023/strategy-status.json",
+      "sha256": "9899ee97b6cacde1f9a08f50ebef12726c85ddf7d16beae7731c87ddc431c40b",
+      "bytes": 277084
+    }
+  ],
+  "native_run_records": [
+    {
+      "source_log": "reports/strategies3-21-watchlist-20210101-20261023/native-run-source-log.jsonl",
+      "line": 7,
+      "line_sha256_utf8": "1470f90b4a4c619209327e7db874b8b51dfee3e3adbca1540cbb3ce779a99879",
+      "record": {
+        "sid": 10,
+        "formula_name": "B321NAT",
+        "source_path": "native-evaluation/per-strategy/S10-expert.txt",
+        "source_sha256": "3e1964691892541038bbfe4bc7ce7677e3bf0f073cd401008f225f18019146c2",
+        "source_kind": "dependency_specialization_equivalent",
+        "summary_path": "native-results/S10/native-summary.xls",
+        "summary_sha256": "5039567736b0a510442167b327d9c00e6614a3cbbd80a87ede0f8108430cdc82",
+        "trades_path": "native-results/S10/native-trades-all.xls",
+        "trades_sha256": "e14b9a54c921ebb1f2fc079f5e595401f46fa94f2ed6c64b4592da82b779f7b2",
+        "run_status": "native_exports_saved"
+      }
+    }
+  ],
+  "validation_note": "已有与本源码哈希绑定的本机实际评测和原生导出；完整核验范围见原报告。",
+  "date_scope_note": "源码的DLY与SPAN限定日线及2021-01-01至2026-10-23；仅修改评测界面结束日不会扩展公式信号范围。",
+  "copied_without_modifying_formula_or_rerunning_native_evaluation": true
+}

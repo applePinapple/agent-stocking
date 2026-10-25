@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "kind": "exact_copy_of_source_bound_native_evaluated_strategy",
+  "strategy_id": 4,
+  "packaged_at": "2026-10-25T08:54:34+08:00",
+  "original_source": {
+    "path": "reports/strategies3-21-watchlist-20210101-20261023/native-evaluation/run-sources/B321NAT-universal-6ae2099f.txt",
+    "sha256": "6ae2099f90e671da420a16c0532f37c2aa33c47b85885570c84f7ce6f8b0c9ef",
+    "bytes": 7946
+  },
+  "source_kind": "actual_universal_selector",
+  "formula_encoding": "ASCII, no BOM; byte-for-byte preserved",
+  "packaged_formula": {
+    "file": "专家系统公式.txt",
+    "sha256": "6ae2099f90e671da420a16c0532f37c2aa33c47b85885570c84f7ce6f8b0c9ef",
+    "bytes": 7946
+  },
+  "native_run_evidence": [
+    {
+      "path": "reports/strategies3-21-watchlist-20210101-20261023/native-results/S04/native-summary.xls",
+      "sha256": "3d2f2e484dce6eaa2ed26dccb4744f8e2a1a4823646ce09eea0605d60b89bd1d",
+      "bytes": 856
+    },
+    {
+      "path": "reports/strategies3-21-watchlist-20210101-20261023/native-results/S04/native-trades-all.xls",
+      "sha256": "7a6ef9c05947b1443bfb528a051d993a237b23587ea8155eff2a9b0436a9d24b",
+      "bytes": 67634
+    },
+    {
+      "path": "reports/strategies3-21-watchlist-20210101-20261023/run-manifest.json",
+      "sha256": "1b2671563e5b24bc3d2e08877a3f83fd737e561479a1f6dc792899c44863e42b",
+      "bytes": 128489
+    },
+    {
+      "path": "reports/strategies3-21-watchlist-20210101-20261023/strategy-status.json",
+      "sha256": "9899ee97b6cacde1f9a08f50ebef12726c85ddf7d16beae7731c87ddc431c40b",
+      "bytes": 277084
+    }
+  ],
+  "native_run_records": [
+    {
+      "source_log": "reports/strategies3-21-watchlist-20210101-20261023/native-run-source-log.jsonl",
+      "line": 2,
+      "line_sha256_utf8": "ae962649bf47b5ea960d842cd06c4ed2d41f94276eb7156e0669652ae6614ec8",
+      "record": {
+        "schema_version": 1,
+        "event": "actual_native_run_source_recorded",
+        "recorded_at_local": "2026-10-24T19:33:13+08:00",
+        "run_id": "S04-universal-before-client-restart",
+        "sid": 4,
+        "formula_name": "B321NAT",
+        "source_kind": "universal_selector",
+        "source_path": "native-evaluation/run-sources/B321NAT-universal-6ae2099f.txt",
+        "source_sha256": "6ae2099f90e671da420a16c0532f37c2aa33c47b85885570c84f7ce6f8b0c9ef",
+        "summary_path": "native-results/S04/native-summary.xls",
+        "summary_sha256": "3d2f2e484dce6eaa2ed26dccb4744f8e2a1a4823646ce09eea0605d60b89bd1d",
+        "summary_snapshot_path": "native-run-history/S04-universal-before-client-restart/native-summary.xls",
+        "trades_path": "native-results/S04/native-trades-all.xls",
+        "trades_sha256": "7a6ef9c05947b1443bfb528a051d993a237b23587ea8155eff2a9b0436a9d24b",
+        "trades_snapshot_path": "native-run-history/S04-universal-before-client-restart/native-trades-all.xls",
+        "run_status": "native_exports_saved",
+        "provenance": "Parent confirms S03/S04/S05/S09 and the existing S10 summary actually ran the universal source; recorded before specialized-source restart. No rerun result is inferred."
+      }
+    }
+  ],
+  "validation_note": "已有与本源码哈希绑定的本机实际评测和原生导出；完整核验范围见原报告。",
+  "date_scope_note": "源码的DLY与SPAN限定日线及2021-01-01至2026-10-23；仅修改评测界面结束日不会扩展公式信号范围。",
+  "copied_without_modifying_formula_or_rerunning_native_evaluation": true
+}
