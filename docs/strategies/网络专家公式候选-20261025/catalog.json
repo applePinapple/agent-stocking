@@ -1,0 +1,581 @@
+{
+  "schema_version": 1,
+  "kind": "web_expert_formula_candidates_not_native_backtest",
+  "created_on": "2026-10-25",
+  "status": "pending",
+  "native_saved": true,
+  "formal_returns_generated": false,
+  "source_statistics_independently_reproduced": false,
+  "formula_type": "expert_system",
+  "signal_outputs": [
+    "ENTERLONG",
+    "EXITLONG"
+  ],
+  "sid_parameter": false,
+  "common_rule": {
+    "period": "daily_completed_bar",
+    "period_guard": "DLY:=PERIOD=5",
+    "bar_count": "BC:=BARSCOUNT(C)",
+    "both_signals_warmup_gated": true,
+    "mutual_exclusion_added": false,
+    "strict_threshold_comparisons": true,
+    "simultaneous_signal_execution": "pending_native_verification",
+    "execution_timing": "pending_explicit_configuration; do not inherit prior next-open settings",
+    "author_close_execution_not_project_authorization": true,
+    "future_functions_used": false,
+    "future_data_perturbation_and_prefix_tests": "passed_python_reference_synthetic_only",
+    "native_indicator_equivalence": "differences_require_review",
+    "historical_signal_censoring_bias": "must disclose",
+    "survivorship_bias": "must disclose",
+    "ex_post_adjustment_changes": "must disclose",
+    "native_future_data_experiment": "not_performed"
+  },
+  "pending_execution_fields": [
+    "security_universe",
+    "date_range",
+    "price_adjustment",
+    "corporate_actions",
+    "initial_capital",
+    "position_sizing",
+    "fees",
+    "slippage",
+    "A_share_T_plus_1",
+    "limit_bar_and_suspension_permissions",
+    "end_of_period_handling"
+  ],
+  "diagnostic": {
+    "name": "NWCHK26",
+    "path": "NWCHK26.txt",
+    "formula_type": "technical_indicator",
+    "encoding": "ASCII",
+    "line_endings": "LF",
+    "sha256": "19c7b971eb9af34ca9e3afd5018f8505aeb44541b247d3b58b258b29d4669c3a",
+    "bytes": 1193,
+    "native_saved": true,
+    "native_compilation": "passed",
+    "output_count": 21,
+    "all_outputs_nodraw": true,
+    "unscaled_fields": [
+      "BC",
+      "B22",
+      "S22",
+      "B23",
+      "S23",
+      "B24",
+      "S24",
+      "B25",
+      "S25",
+      "B26",
+      "S26",
+      "B27",
+      "S27"
+    ],
+    "scaled_fields": [
+      "IBV",
+      "RV3",
+      "KCM",
+      "KAT",
+      "B5L",
+      "B20L",
+      "M20",
+      "M50"
+    ],
+    "numeric_scale": 1048576,
+    "invalid_denominator_sentinel": {
+      "fields": [
+        "IBV",
+        "RV3"
+      ],
+      "value": -1,
+      "scaled": false,
+      "valid_zero_remains_zero": true
+    },
+    "native_saved_on": "2026-10-25",
+    "native_signal_validation": "matched_single_security_diagnostic_booleans",
+    "native_numeric_equivalence": "differences_require_review",
+    "native_evidence": {
+      "paths_relative_to": "repository_root",
+      "compilation_passed": "reports/web-experts-20261025/013-NWCHK26-test-passed/state.json",
+      "confirmed_saved": "reports/web-experts-20261025/014-NWCHK26-saved/state.json",
+      "chart_applied": "reports/web-experts-20261025/015-NWCHK26-chart-688017/state.json",
+      "export_path": "reports/web-experts-20261025/016-NWCHK26-export-path/state.json",
+      "export_success": "reports/web-experts-20261025/017-NWCHK26-export-success/state.json"
+    },
+    "native_export": {
+      "path": "reports/web-experts-20261025/native-check-688017.txt",
+      "sha256": "f4787eb2b65a3df739ac7d5130e3f9ba0a9e76eddddb823e8ab00a54046f28fd",
+      "bytes": 659265,
+      "encoding": "gb18030",
+      "rows": 1489,
+      "first_date": "2020-08-28",
+      "last_date": "2026-10-23"
+    }
+  },
+  "candidates": [
+    {
+      "candidate_id": 22,
+      "formula_name": "W22IBS",
+      "title": "IBS低位买入、高位退出",
+      "status": "pending",
+      "native_saved": true,
+      "native_compilation": "passed",
+      "native_signal_validation": "matched_single_security_diagnostic_booleans",
+      "native_execution_validation": "pending",
+      "return_validation": "pending",
+      "expert_file": "W22IBS/expert.txt",
+      "readme": "W22IBS/README.md",
+      "encoding": "ASCII",
+      "line_endings": "LF",
+      "source_sha256": "d4624deebbef211e9940873510009aa7249082e8305f2aa731ac377463f4f6d0",
+      "source_bytes": 164,
+      "source": {
+        "url": "https://quantifiedstrategies.substack.com/p/the-ibs-indicator-the-powerful-indicator",
+        "title": "The IBS Indicator: The Powerful Indicator You Have Never Heard of",
+        "author": "QuantifiedStrategies.com",
+        "published_date": "2026-03-14",
+        "read_on": "2026-10-25",
+        "primary_self_published": true,
+        "statistics_independently_reproduced": false,
+        "market": "QQQ",
+        "start": null,
+        "end": null,
+        "costs": "未披露",
+        "claimed_metrics": {
+          "win_rate_pct": "70",
+          "annual_return_pct": "14",
+          "mean_trade_pct": "0.9"
+        },
+        "alternate_execution_claim": {
+          "execution": "following_day_open",
+          "mean_trade_pct": "0.75",
+          "comparable_metrics_not_disclosed": true
+        },
+        "claim_limitations": "作者称QQQ策略胜率70%、年回报14%、平均每笔0.9%；精确起讫日期及费用未披露。次日开盘执行时平均每笔0.75%是作者另述，不能与前述结果合并。"
+      },
+      "rule": {
+        "warmup_bars": 1,
+        "entry": "RNG>0 且 IBV<0.1",
+        "exit_existing_long": "RNG>0 且 IBV>0.9",
+        "local_mapping_and_boundaries": "IBV=(C-L)/(H-L)。RNG<=0时买卖信号均被明确阻止；这属于本机保护，原作者未披露该边界处理。",
+        "author_execution_note": "作者强调接近收盘执行；另有次开盘0.75%每笔的独立陈述。",
+        "project_execution_confirmed": false
+      },
+      "native_saved_on": "2026-10-25",
+      "native_evidence": {
+        "paths_relative_to": "repository_root",
+        "compilation_passed": "reports/web-experts-20261025/001-W22IBS-test-passed/state.json",
+        "confirmed_saved_and_visible": "reports/web-experts-20261025/002-W22IBS-saved/state.json",
+        "basis": "Native Test Formula passed; editor confirmation saved; formula visible in expert-system user tree."
+      },
+      "native_numeric_equivalence": "differences_require_review",
+      "native_signal_comparison": {
+        "security_code": "688017",
+        "rows": 1489,
+        "first_date": "2020-08-28",
+        "last_date": "2026-10-23",
+        "columns": [
+          "B22",
+          "S22"
+        ],
+        "comparisons": 2978,
+        "mismatches": 0,
+        "raw_conditions_not_position_filtered_expert_arrows": true,
+        "evidence": "reports/web-experts-20261025/native-check-comparison.json"
+      }
+    },
+    {
+      "candidate_id": 23,
+      "formula_name": "W23BOL5",
+      "title": "5日布林下轨回归",
+      "status": "pending",
+      "native_saved": true,
+      "native_compilation": "passed",
+      "native_signal_validation": "matched_single_security_diagnostic_booleans",
+      "native_execution_validation": "pending",
+      "return_validation": "pending",
+      "expert_file": "W23BOL5/expert.txt",
+      "readme": "W23BOL5/README.md",
+      "encoding": "ASCII",
+      "line_endings": "LF",
+      "source_sha256": "0d0c0917e27ab8c52b64129d928cd8c05869d0306263a0f03ecc91b820d8f00e",
+      "source_bytes": 133,
+      "source": {
+        "url": "https://www.linkedin.com/posts/quantifiedstrategies_3-bollinger-band-trading-strategies-backtest-activity-7494732208327294976-jrp3",
+        "title": "3 Bollinger Band Trading Strategies (+Backtest)",
+        "author": "QuantifiedStrategies.com",
+        "published_date": null,
+        "read_on": "2026-10-25",
+        "primary_self_published": true,
+        "statistics_independently_reproduced": false,
+        "market": "S&P 500（该段未明确交易载体）",
+        "start": "1993（精确日期未披露）",
+        "end": null,
+        "costs": "未披露",
+        "claimed_metrics": {
+          "trades": 500,
+          "win_rate_pct": "76",
+          "annualized_return_pct": "9",
+          "mean_trade_pct": "0.5"
+        },
+        "alternate_execution_claim": null,
+        "claim_limitations": "作者自发视频末段称S&P 500自1993年起共500笔，胜率76%、年化9%、平均每笔0.5%；终点及成本未明确。此处只采用5日、1.5倍标准差的回归版本。"
+      },
+      "rule": {
+        "warmup_bars": 5,
+        "entry": "C<MA(C,5)-1.5*STDP(C,5)",
+        "exit_existing_long": "C>REF(H,1)",
+        "local_mapping_and_boundaries": "STDP采用总体标准差，是显式本机研究映射；作者视频未明确标准差分母，须核对后才能声称对应原版。",
+        "author_execution_note": "来源按完成收盘判断买卖；具体成交复现尚待确认。",
+        "project_execution_confirmed": false
+      },
+      "native_saved_on": "2026-10-25",
+      "native_evidence": {
+        "paths_relative_to": "repository_root",
+        "compilation_passed": "reports/web-experts-20261025/003-W23BOL5-test-passed/state.json",
+        "confirmed_saved_and_visible": "reports/web-experts-20261025/004-W23BOL5-saved/state.json",
+        "basis": "Native Test Formula passed; editor confirmation saved; formula visible in expert-system user tree."
+      },
+      "native_numeric_equivalence": "differences_require_review",
+      "native_signal_comparison": {
+        "security_code": "688017",
+        "rows": 1489,
+        "first_date": "2020-08-28",
+        "last_date": "2026-10-23",
+        "columns": [
+          "B23",
+          "S23"
+        ],
+        "comparisons": 2978,
+        "mismatches": 0,
+        "raw_conditions_not_position_filtered_expert_arrows": true,
+        "evidence": "reports/web-experts-20261025/native-check-comparison.json"
+      }
+    },
+    {
+      "candidate_id": 24,
+      "formula_name": "W24R3IB",
+      "title": "RSI3与IBS组合回归",
+      "status": "pending",
+      "native_saved": true,
+      "native_compilation": "passed",
+      "native_signal_validation": "matched_single_security_diagnostic_booleans",
+      "native_execution_validation": "pending",
+      "return_validation": "pending",
+      "expert_file": "W24R3IB/expert.txt",
+      "readme": "W24R3IB/README.md",
+      "encoding": "ASCII",
+      "line_endings": "LF",
+      "source_sha256": "1e9ff7b23c53202c7ae865c9aeb4a344da0321f75e968fc72c1d2a7bec4614d8",
+      "source_bytes": 297,
+      "source": {
+        "url": "https://www.linkedin.com/posts/quantifiedstrategies_ibs-internal-bar-strength-trading-strategy-activity-7499828332918824960-lCXg",
+        "title": "IBS - Internal Bar Strength Trading STRATEGY (Statistic & Backtest)",
+        "author": "QuantifiedStrategies.com",
+        "published_date": null,
+        "read_on": "2026-10-25",
+        "primary_self_published": true,
+        "statistics_independently_reproduced": false,
+        "market": "SPY",
+        "start": "1993（精确日期未披露）",
+        "end": null,
+        "costs": "未披露",
+        "claimed_metrics": {
+          "annualized_return_pct": "9.6",
+          "max_drawdown_pct": "23",
+          "win_rate_pct": null,
+          "illustrated_trades": 9,
+          "illustrated_winning_trades": 7
+        },
+        "alternate_execution_claim": null,
+        "claim_limitations": "作者自发视频第三组测试称SPY自1993年起年化9.6%、最大回撤23%；末日、费用及全样本胜率未披露。画面的9笔中7笔盈利只是样例，不是总胜率。"
+      },
+      "rule": {
+        "warmup_bars": 4,
+        "entry": "DNV>0 且 RNG>0 且 RV3<30 且 IBV<0.2",
+        "exit_existing_long": "C>REF(H,1) 或（RNG>0 且 IBV>0.9）",
+        "local_mapping_and_boundaries": "RV3=100*SMA(MAX(C-REF(C,1),0),3,1)/SMA(ABS(C-REF(C,1)),3,1)。通达信SMA初值与作者AmiBroker实现尚未完整对照。无效DNV/RNG阻止相应依赖分支；C>REF(H,1)退出分支不额外受RNG限制。",
+        "author_execution_note": "来源以完成日线收盘判断；成交与AmiBroker设置待复现。",
+        "project_execution_confirmed": false
+      },
+      "native_saved_on": "2026-10-25",
+      "native_evidence": {
+        "paths_relative_to": "repository_root",
+        "compilation_passed": "reports/web-experts-20261025/005-W24R3IB-test-passed/state.json",
+        "confirmed_saved_and_visible": "reports/web-experts-20261025/006-W24R3IB-saved/state.json",
+        "basis": "Native Test Formula passed; editor confirmation saved; formula visible in expert-system user tree."
+      },
+      "native_numeric_equivalence": "differences_require_review",
+      "native_signal_comparison": {
+        "security_code": "688017",
+        "rows": 1489,
+        "first_date": "2020-08-28",
+        "last_date": "2026-10-23",
+        "columns": [
+          "B24",
+          "S24"
+        ],
+        "comparisons": 2978,
+        "mismatches": 0,
+        "raw_conditions_not_position_filtered_expert_arrows": true,
+        "evidence": "reports/web-experts-20261025/native-check-comparison.json"
+      }
+    },
+    {
+      "candidate_id": 25,
+      "formula_name": "W25KELT",
+      "title": "Keltner下轨回归",
+      "status": "pending",
+      "native_saved": true,
+      "native_compilation": "passed",
+      "native_signal_validation": "matched_single_security_diagnostic_booleans",
+      "native_execution_validation": "pending",
+      "return_validation": "pending",
+      "expert_file": "W25KELT/expert.txt",
+      "readme": "W25KELT/README.md",
+      "encoding": "ASCII",
+      "line_endings": "LF",
+      "source_sha256": "4e00640d1e73dca268cc599cb52616d153b5559fab6b81b3e97c623af1dc3ea9",
+      "source_bytes": 147,
+      "source": {
+        "url": "https://www.loomiai.io/learn/keltner-channel-strategy-backtest/",
+        "title": "Keltner Channel Strategy Backtest: Breakout vs Fade on NQ",
+        "author": "Seth Woods / Loomi.Ai",
+        "published_date": "2026-08-14",
+        "read_on": "2026-10-25",
+        "primary_self_published": true,
+        "statistics_independently_reproduced": false,
+        "market": "NQ连续近月期货，日线，1合约",
+        "start": "2010-06-07",
+        "end": "2026-04-16",
+        "costs": "1.0 NQ point per round trip",
+        "claimed_metrics": {
+          "trades": 55,
+          "win_rate_pct": "81.8",
+          "profit_factor": "3.59",
+          "total_nq_points": "9676"
+        },
+        "alternate_execution_claim": null,
+        "claim_limitations": "作者自测下轨做多回归版：55笔、胜率81.8%、PF3.59、合计+9676点；区间2010-06-07至2026-04-16，每次往返扣1个NQ点，不设止损。点数不是收益率。"
+      },
+      "rule": {
+        "warmup_bars": 20,
+        "entry": "C<EMA(C,20)-2*SMA(TR,20,1)",
+        "exit_existing_long": "C>EMA(C,20)",
+        "local_mapping_and_boundaries": "MID=EMA(C,20)，ATRV=SMA(TR,20,1)。后者是Wilder递推的本机映射，TR首根和递推初值仍待逐项对照。",
+        "author_execution_note": "作者按信号当日收盘买卖；无止损。",
+        "project_execution_confirmed": false
+      },
+      "native_saved_on": "2026-10-25",
+      "native_evidence": {
+        "paths_relative_to": "repository_root",
+        "compilation_passed": "reports/web-experts-20261025/007-W25KELT-test-passed/state.json",
+        "confirmed_saved_and_visible": "reports/web-experts-20261025/008-W25KELT-saved/state.json",
+        "basis": "Native Test Formula passed; editor confirmation saved; formula visible in expert-system user tree."
+      },
+      "native_numeric_equivalence": "differences_require_review",
+      "native_signal_comparison": {
+        "security_code": "688017",
+        "rows": 1489,
+        "first_date": "2020-08-28",
+        "last_date": "2026-10-23",
+        "columns": [
+          "B25",
+          "S25"
+        ],
+        "comparisons": 2978,
+        "mismatches": 0,
+        "raw_conditions_not_position_filtered_expert_arrows": true,
+        "evidence": "reports/web-experts-20261025/native-check-comparison.json"
+      }
+    },
+    {
+      "candidate_id": 26,
+      "formula_name": "W26BOL2",
+      "title": "20日布林下轨回归",
+      "status": "pending",
+      "native_saved": true,
+      "native_compilation": "passed",
+      "native_signal_validation": "matched_single_security_diagnostic_booleans",
+      "native_execution_validation": "pending",
+      "return_validation": "pending",
+      "expert_file": "W26BOL2/expert.txt",
+      "readme": "W26BOL2/README.md",
+      "encoding": "ASCII",
+      "line_endings": "LF",
+      "source_sha256": "a6348719373ea6b7a03771f08cb5b41716520591d330f7863f6dd4c1393171bc",
+      "source_bytes": 135,
+      "source": {
+        "url": "https://www.loomiai.io/learn/bollinger-band-squeeze-strategy-backtest/",
+        "title": "Bollinger Band Squeeze Backtest: Breakout vs Fade on NQ",
+        "author": "Seth Woods / Loomi.Ai",
+        "published_date": "2026-08-12",
+        "read_on": "2026-10-25",
+        "primary_self_published": true,
+        "statistics_independently_reproduced": false,
+        "market": "NQ连续近月期货，日线，1合约",
+        "start": "2010-06-07",
+        "end": "2026-04-16",
+        "costs": "1.0 NQ point per round trip",
+        "claimed_metrics": {
+          "trades": 83,
+          "win_rate_pct": "77.1",
+          "profit_factor": "3.2",
+          "total_nq_points": "11547.8"
+        },
+        "alternate_execution_claim": null,
+        "claim_limitations": "采用文章中的下轨做多回归版，未加入squeeze条件。作者自测83笔、胜率77.1%、PF3.2、合计+11547.8点；区间2010-06-07至2026-04-16，往返成本1点，无止损。点数不是收益率。"
+      },
+      "rule": {
+        "warmup_bars": 20,
+        "entry": "C<MA(C,20)-2*STDP(C,20)",
+        "exit_existing_long": "C>MA(C,20)",
+        "local_mapping_and_boundaries": "STDP总体标准差是本机研究选择；作者未披露分母，仍待对照。文章标题含squeeze，但选定的lower-band fade规则明确无需squeeze，公式没有添加该条件。",
+        "author_execution_note": "作者按信号当日收盘买卖；无止损。",
+        "project_execution_confirmed": false
+      },
+      "native_saved_on": "2026-10-25",
+      "native_evidence": {
+        "paths_relative_to": "repository_root",
+        "compilation_passed": "reports/web-experts-20261025/009-W26BOL2-test-passed/state.json",
+        "confirmed_saved_and_visible": "reports/web-experts-20261025/010-W26BOL2-saved/state.json",
+        "basis": "Native Test Formula passed; editor confirmation saved; formula visible in expert-system user tree."
+      },
+      "native_numeric_equivalence": "differences_require_review",
+      "native_signal_comparison": {
+        "security_code": "688017",
+        "rows": 1489,
+        "first_date": "2020-08-28",
+        "last_date": "2026-10-23",
+        "columns": [
+          "B26",
+          "S26"
+        ],
+        "comparisons": 2978,
+        "mismatches": 0,
+        "raw_conditions_not_position_filtered_expert_arrows": true,
+        "evidence": "reports/web-experts-20261025/native-check-comparison.json"
+      }
+    },
+    {
+      "candidate_id": 27,
+      "formula_name": "W27MA25",
+      "title": "20/50日均线交叉",
+      "status": "pending",
+      "native_saved": true,
+      "native_compilation": "passed",
+      "native_signal_validation": "matched_single_security_diagnostic_booleans",
+      "native_execution_validation": "pending",
+      "return_validation": "pending",
+      "expert_file": "W27MA25/expert.txt",
+      "readme": "W27MA25/README.md",
+      "encoding": "ASCII",
+      "line_endings": "LF",
+      "source_sha256": "9499e2e832acd16f2c700daec6bd16f7af8ae9b9fde0b96ace529a60cbe557fd",
+      "source_bytes": 152,
+      "source": {
+        "url": "https://www.loomiai.io/learn/golden-cross-50-200-vs-20-50-nasdaq/",
+        "title": "Golden Cross Strategy: 50/200 vs 20/50 on Nasdaq Futures",
+        "author": "Serena Golsby / Loomi.Ai",
+        "published_date": "2026-08-21",
+        "read_on": "2026-10-25",
+        "primary_self_published": true,
+        "statistics_independently_reproduced": false,
+        "market": "NQ连续近月期货，日线，1合约",
+        "start": "2010-06-07",
+        "end": "2026-04-16",
+        "costs": "1.0 NQ point per round trip",
+        "claimed_metrics": {
+          "trades": 45,
+          "win_rate_pct": "60",
+          "profit_factor": "2.9",
+          "total_nq_points": "13350.5"
+        },
+        "alternate_execution_claim": null,
+        "claim_limitations": "采用文章20/50交叉列：作者自测45笔、胜率60%、PF2.9、合计+13350.5点；区间2010-06-07至2026-04-16，往返成本1点，只做多，无止损。点数不是百分比收益。"
+      },
+      "rule": {
+        "warmup_bars": 51,
+        "entry": "CROSS(MA(C,20),MA(C,50))",
+        "exit_existing_long": "CROSS(MA(C,50),MA(C,20))",
+        "local_mapping_and_boundaries": "两条均线均为收盘价简单均线。采用本机CROSS，前值相等、初值及缺失数据边界尚待本机输出核对；当期相等不触发交叉。",
+        "author_execution_note": "作者按交叉当日收盘买卖；只做多，无止损、目标或其他过滤。",
+        "project_execution_confirmed": false
+      },
+      "native_saved_on": "2026-10-25",
+      "native_evidence": {
+        "paths_relative_to": "repository_root",
+        "compilation_passed": "reports/web-experts-20261025/011-W27MA25-test-passed/state.json",
+        "confirmed_saved_and_visible": "reports/web-experts-20261025/012-W27MA25-saved/state.json",
+        "basis": "Native Test Formula passed; editor confirmation saved; formula visible in expert-system user tree."
+      },
+      "native_numeric_equivalence": "differences_require_review",
+      "native_signal_comparison": {
+        "security_code": "688017",
+        "rows": 1489,
+        "first_date": "2020-08-28",
+        "last_date": "2026-10-23",
+        "columns": [
+          "B27",
+          "S27"
+        ],
+        "comparisons": 2978,
+        "mismatches": 0,
+        "raw_conditions_not_position_filtered_expert_arrows": true,
+        "evidence": "reports/web-experts-20261025/native-check-comparison.json"
+      }
+    }
+  ],
+  "native_compilation": "passed",
+  "native_signal_validation": "matched_single_security_diagnostic_booleans",
+  "native_saved_count": 6,
+  "native_save_evidence_scope": "expert_system_formulas_only; diagnostic status tracked separately",
+  "native_numeric_equivalence": "differences_require_review",
+  "native_saved_on": "2026-10-25",
+  "native_client": {
+    "name": "Tongdaxin Financial Terminal",
+    "version": "V7.71",
+    "formula_manager_version": "V6.06"
+  },
+  "native_reopened_persistence_evidence": "reports/web-experts-20261025/018-six-experts-persisted-after-reopen/state.json",
+  "reference_temporal_checks": {
+    "status": "passed",
+    "temporal_prefix_cases": 48,
+    "synthetic_only": true,
+    "model": "Python reference",
+    "native_market_data_mutated": false,
+    "native_future_data_experiment_passed": false,
+    "evidence": "reports/web-experts-20261025/native-check-comparison.json"
+  },
+  "native_diagnostic_validation": {
+    "status": "matched_single_security_booleans_numeric_differences_remain",
+    "security_code": "688017",
+    "rows": 1489,
+    "first_date": "2020-08-28",
+    "last_date": "2026-10-23",
+    "boolean_columns": 12,
+    "boolean_comparisons": 17868,
+    "boolean_mismatches": 0,
+    "barscount_first": 0,
+    "barscount_last": 1488,
+    "barscount_matches_all_rows": true,
+    "numeric_equivalence": "differences_require_review",
+    "auxiliary_columns": 8,
+    "strict_auxiliary_differences": 11846,
+    "raw_display_absolute_tolerance": 0.0051,
+    "decoded_absolute_aux_tolerance": 4.863739013671875e-09,
+    "relative_aux_tolerance": 0.0,
+    "price_adjustment_mode": "not_identified_from_export_header; no inference about UI adjustment selector",
+    "day_price_observation": "5956 OHLC values equal read-only .day stored cents divided by 100",
+    "native_expert_position_filtering_verified": false,
+    "order_execution_verified": false,
+    "returns_calculated": false,
+    "evidence": {
+      "paths_relative_to": "repository_root",
+      "native_export": "reports/web-experts-20261025/native-check-688017.txt",
+      "comparison": "reports/web-experts-20261025/native-check-comparison.json",
+      "analysis": "reports/web-experts-20261025/native-check-analysis.md",
+      "investigation": "reports/web-experts-20261025/native-check-investigation.json",
+      "audit_manifest": "reports/web-experts-20261025/native-check-audit-manifest.json"
+    }
+  }
+}

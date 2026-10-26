@@ -1,0 +1,7 @@
+MACDBS - MACD专家买卖点
+参数：SHORT=12，LONG=26，M=9，可调整。
+DIFF为快慢EMA差，DEA为DIFF的EMA；MACD=2*(DIFF-DEA)。
+红色买标记：CROSS(MACD,0)，与本机MACD专家ENTERLONG条件相同。
+绿色卖标记：CROSS(0,MACD)，与本机MACD专家EXITLONG条件相同。
+BSIG/SSIG为原始条件的0/1值。未完成K线上的信号可能变化。
+标记表示条件触发，不表示已经成交；成交及持仓过滤由评测设置决定。

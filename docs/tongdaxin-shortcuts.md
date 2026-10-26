@@ -267,3 +267,13 @@ BC:BARSCOUNT(C);
 
 用户已明确允许保存和切换本次自定义公式；此前的授权等待已解除，当前按正确公式正文与SID逐项操作。各方案完成情况以[本地可运行文件索引](strategies/通达信可运行策略.md)及保存证据为准，不以公式存在或通用参数相同代替逐项保存核对。
 
+### 2026-10-25：网络候选专家公式与NWCHK26诊断实测
+
+以下为本机V7.71实际操作，官方入口资料仍见前文，不作为其他版本或函数内部语义完全一致的证明。
+
+- 行情界面按`Ctrl+F`进入公式管理器，在专家系统分类新建独立公式，点击“测试公式”出现“测试通过!”后点击“确定”保存。本轮W22IBS、W23BOL5、W24R3IB、W25KELT、W26BOL2、W27MA25均已完成；[重新打开管理器](../reports/web-experts-20261025/018-six-experts-persisted-after-reopen/state.json)后6个名称仍在专家系统用户树中。
+- 技术指标`NWCHK26`的21个NODRAW输出已[测试通过](../reports/web-experts-20261025/013-NWCHK26-test-passed/state.json)并[确认保存](../reports/web-experts-20261025/014-NWCHK26-saved/state.json)。日线图按`Ctrl+I`选择已保存的用户指标，已应用于[688017日线图](../reports/web-experts-20261025/015-NWCHK26-chart-688017/state.json)；不能把该诊断指标当成专家交易公式。
+- 通过“选项→数据导出→格式文本文件”设置[原生导出路径](../reports/web-experts-20261025/016-NWCHK26-export-path/state.json)，客户端显示[导出成功](../reports/web-experts-20261025/017-NWCHK26-export-success/state.json)。文件为GB18030文本，共1489行日线，2020-08-28至2026-10-23；12个原始布尔列及BC与参考模型匹配，辅助数值仍存在差异。
+
+详细范围见[本机输出核对报告](../reports/web-experts-20261025/native-check-analysis.md)。48项前缀/未来扰动检查仅针对合成数据上的Python参考模型，不是本机行情未来数据实验；本次未验证实际成交或计算正式收益。
+
